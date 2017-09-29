@@ -1,0 +1,140 @@
+
+/*Navbar*/
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+.brand-logo {
+    margin-left: -150px;
+
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-indent: 50px;
+}
+
+#user_name {
+    font-size: 18px;
+    margin-top: -64px !important;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+
+
+.profile-image {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.dropdown-content.active {
+    position: static !important;
+    width: 150px !important;
+    margin-left: -100px !important;
+}
+
+.badge {
+    color: white !important;
+    background-color: darkblue !important;
+}
+
+.dropdown-content li>a {
+    color: blue !important;
+}
+
+.profile-btn {
+
+}
+
+ul a.active {
+    color: blue;
+}
+
+#logo-container {
+    font-family: 'Leckerli One', cursive;
+    z-index: 99;
+}
+
+#slide-out {
+    z-index: 1;
+    margin-top: 75px;
+}
+
+
+nav {
+    height: 75px;
+    line-height: 75px;
+
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .brand-logo {
+    font-size: 2.0rem;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+p {
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-indent: 50px;
+}
+
+/*
+Blog Index */
+
+div#blog_content.card-content {
+
+}
+
+/* Footer */
+
+div#footer.footer-copyright {
+    margin-left: 200px;
+    z-index: -1 !important;
+}
+
+#airplane{
+    margin-left: 100px;
+}
+
+.car#blogCard:nth-child(odd){
+    margin-left: 2%;
+}
+
+.card#blogCard {
+width: 100%;
+}
+.containerBlogIndex{
+    overflow: hidden;
+}

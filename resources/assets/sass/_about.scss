@@ -1,0 +1,77 @@
+nav ul a,
+nav .brand-logo {
+  color: #444; !important;
+}
+
+
+p {
+  line-height: 2rem; !important;
+}
+
+.button-collapse {
+  color: #26a69a; !important;
+}
+
+.parallax-container {
+  min-height: 380px; !important;
+  line-height: 0; !important;
+  height: auto; !important;
+  color: rgba(255,255,255,.9); !important;
+}
+.parallax-container .section {
+  width: 100%; !important;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute; !important;
+    top: 40%; !important;
+  }
+  #index-banner .section {
+    top: 10%; !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0; !important;
+  }
+}
+
+.icon-block {
+  padding: 0 15px; !important;
+}
+.icon-block .material-icons {
+  font-size: inherit; !important;
+}
+
+footer.page-footer {
+  margin: 0; !important;
+}
+
+// [Fix] Text inputs custom error message
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+  &.valid + label:after,
+  &.invalid + label:after,
+  &:focus.valid + label:after,
+  &:focus.invalid + label:after {
+    white-space: pre;
+  }
+  &.empty {
+    &:not(:focus).valid + label:after,
+    &:not(:focus).invalid + label:after {
+      top: 2.8rem;
+
+    }
+  }
+}

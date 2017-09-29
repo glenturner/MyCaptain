@@ -1,0 +1,149 @@
+
+
+/*Navbar*/
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+ul a.active {
+    color: blue;
+}
+
+#logo-container {
+    font-family: 'Leckerli One', cursive;
+}
+
+.logo {
+    margin-left: -65px;
+}
+
+nav {
+    height: 100px;
+    line-height: 100px;
+}
+
+
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .brand-logo {
+    font-size: 2.0rem;
+}
+
+ h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+ h1 {
+     font-family: 'Quicksand', sans-serif;
+ }
+
+p {
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-indent: 50px;
+}
+
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.index-list {
+    text-align: center;
+}
+.index-list__off1 {
+    margin-top: 36px;
+}
+.index-list li {
+    position: relative;
+    z-index: 0;
+}
+.index-list li:before {
+    content: attr(data-index);
+    position: absolute;
+    top: -3px;
+    padding-left: 28.89%;
+    left: 0;
+    font-weight: 700;
+    font-size: 105px;
+    line-height: 74px;
+    color: #8B98AB;
+    z-index: -1;
+    opacity: 0.4;
+}
+.index-list .fa {
+    color: #0D4F8B;
+    font-size: 36px;
+    line-height: 36px;
+}
+.index-list .fa-desktop, .index-list .fa-paper-plane-o {
+    font-size: 32px;
+}
+
+.problem {
+    color: grey;
+    font-size: 28px;
+}
+
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    background-image: url("/images/royal.jpg");
+    margin: 0;
+    height: 650px;
+}
+
+/*.container {*/
+    /*-webkit-align-self: center; !* Safari 7.0+ *!*/
+    /*align-self: center;*/
+/*}*/
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 100px;
+        line-height: 100px;
+    }
+}

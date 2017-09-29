@@ -1,0 +1,184 @@
+
+/*Navbar*/
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+.brand-logo {
+    margin-left: -150px;
+
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-indent: 50px;
+}
+
+#user_name {
+    font-size: 18px;
+    margin-top: -45px !important;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+
+.profile-image {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+img.circle.z-depth-2.responsive-img.activator.profile-photo{
+    width: 63px !important;
+    height: 70px !important;
+}
+
+.dropdown-content.active {
+
+}
+
+.badge {
+    color: white !important;
+    background-color: darkblue !important;
+}
+
+.dropdown-content li>a {
+    color: blue !important;
+}
+
+.profile-btn {
+}
+
+ul a.active {
+    color: blue;
+}
+
+#logo-container {
+    font-family: 'Leckerli One', cursive;
+    z-index: 99;
+}
+
+#slide-out {
+    z-index: 1;
+    margin-top: 75px;
+}
+
+nav {
+    height: 75px;
+    line-height: 75px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .brand-logo {
+    font-size: 2.0rem;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-indent: 50px;
+}
+
+/*
+Page Header*/
+
+div#profile-page-header.card {
+    width: 1100px;
+}
+
+#profile-page-header .card-profile-image {
+    width: 80px;
+    position: absolute;
+    top: 320px;
+    z-index: 1;
+   left: 50px;
+    cursor: pointer;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*Profile Blog*/
+.tabs .indicator {
+background-color: transparent !important;
+ }
+
+#tab {
+    text-align: center;
+    letter-spacing: 1.0px;
+}
+
+#profile-page-wall-share {
+     font-size: 24px;
+     width: 1125px;
+
+ }
+
+#tab {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 20px;
+ }
+
+
+#youtube {
+ }
+
+/* Footer */
+
+div#footer.footer-copyright {
+
+    border-top: solid blue;
+    color: blue;
+    z-index: -1;
+    width: 100% !important;
+
+ }
+
+
+#airplane {
+
+ }
+
+.card.blogCard {
+
+    width: 100%;
+
+}
+
+.card.blogCard:nth-child(even){
+
+}
+
+
+
+
+
